@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  	<body>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>WRSD</title>
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/nav.css">
+    <link rel="stylesheet" href="css/wrhs.css">
+	<link href="css/simple-sidebar.css" rel="stylesheet">
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+						<!--NAVBAR-->
+	<nav class="navbar navbar-toggleable-md navbar-light bg-faded">
+	  <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+		<span class="navbar-toggler-icon"></span>
+	  </button>
+	  <img src="imgs/navbarlogo.png" width="40" height="40" alt="">&nbsp;&nbsp;&nbsp;
+	  <a class="navbar-brand" href="#">WRSD</a>
+	  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+		<div class="navbar-nav">
+		  <a class="nav-item nav-link active" href="#">Home<span class="sr-only">(current)</span></a>
+		  <a class="nav-item nav-link" href="#">Calendar</a>
+		  <a class="nav-item nav-link" href="#">District Schools</a>
+		  <a class="nav-item nav-link" href="ps.wrsd.net">Library</a>
+		  <a class="nav-item nav-link" href="ps.wrsd.net">PowerSchool</a>
+		  <a class="nav-item nav-link" href="ps.wrsd.net">Staff Directory</a>
+		</div>
+	  </div>
+	</nav>
+						<!--JUMBROTRON-->
+<div class="jumbotron jumbotron-fluid">
+  <div class="container">
+    <h1 class="display-3">Wachusett Regional School District</h1>
+    <p class="text-muted">Our mission is to ensure meaningful student growth and promote social emotional wellbeing in a safe and nurturing environment. We will integrate the talent, experience, and knowledge of all members of our community to develop lifelong learners, equipped to think critically in an ever-changing, global society..</p>
+  </div>
+
+
+    <div id="wrapper">
+
+        <!-- Sidebar -->
+        <div id="sidebar-wrapper">
+            <ul class="sidebar-nav">
+                <li class="sidebar-brand">
+                    <h4>
+                        Upcoming Events
+                    </h4>
+                </li>
+                <li>
+                    <h5>Headline</h5>
+                </li>
+                <li>
+                    Info
+                </li>
+				<hr>
+                <li>
+                    <h5>Headline</h5>
+                </li>
+                <li>
+                    Info
+                </li>
+				<hr>
+                <li>
+                    <h5>Headline</h5>
+                </li>
+                <li>
+                    Info
+                </li>
+				<hr>
+                <li>
+                    <h5>Headline</h5>
+                </li>
+				<li>
+					Info
+				</li>
+				<hr>
+            </ul>
+        </div>
+        <!-- /#sidebar-wrapper -->
+
+        <!-- Page Content -->
+        <div id="page-content-wrapper">
+            <div class="container-fluid">
+                <a href="#menu-toggle" class="btn btn-secondary" id="menu-toggle">View Upcoming Events</a>
+            </div>
+        </div>
+        <!-- /#page-content-wrapper -->
+
+    </div>
+    <!-- /#wrapper -->
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Menu Toggle Script -->
+    <script>
+    $("#menu-toggle").click(function(e) {
+        e.preventDefault();
+        $("#wrapper").toggleClass("toggled");
+    });
+    </script>
+</div>
+				
+	</body>
+   </head>
+</html>
